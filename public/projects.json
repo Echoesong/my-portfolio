@@ -1,0 +1,14 @@
+[
+  {
+    "name": "project1",
+    "live": "appurlTestString",
+    "git": "githubTestString",
+    "image": "imageTestString"
+  },
+  {
+    "name": "project2",
+    "live": "appurlTestString",
+    "git": "githubTestString",
+    "image": "imageTestString"
+  }
+]

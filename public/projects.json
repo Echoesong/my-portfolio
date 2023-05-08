@@ -1,14 +1,14 @@
 [
   {
-    "name": "project1",
-    "live": "appurlTestString",
-    "git": "githubTestString",
-    "image": "imageTestString"
+    "name": "Project 1 - Tamagotchi",
+    "live": "",
+    "git": "https://github.com/Echoesong/Tamagotchi",
+    "image": ""
   },
   {
-    "name": "project2",
-    "live": "appurlTestString",
-    "git": "githubTestString",
-    "image": "imageTestString"
+    "name": "Project 2 - Break the Ice",
+    "live": "https://break-the-ice-app.herokuapp.com/icebreakers",
+    "git": "https://github.com/Echoesong/Project-2",
+    "image": ""
   }
 ]

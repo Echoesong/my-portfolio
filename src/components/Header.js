@@ -9,11 +9,12 @@ function Header(props) {
     padding: "8px",
     width: "90%",
     margin: "auto",
+    borderRadius: "1rem",
   };
 
   return (
     <header>
-      <h1>My Portfolio Page</h1>
+      <h1>Joseph Felker Portfolio</h1>
       <nav style={navStyle}>
         <Link to="/">
           <div>HOME</div>

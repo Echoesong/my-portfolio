@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
 
+import '../App.css'
+
+const test = 'test'
+
 export default function About(props) {
   const [about, setAbout] = useState(null);
   const getAboutData = async () => {
@@ -9,7 +13,7 @@ export default function About(props) {
   };
   useEffect(() => {getAboutData()}, []);
   const loaded = () => (
-    <div>
+    <div className='aboutStyling'>
       <h2>{about.name}</h2>
       <h3>{about.email}</h3>
       <p>{about.bio}</p>

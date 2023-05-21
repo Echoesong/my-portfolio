@@ -2,13 +2,6 @@ import { useState, useEffect } from "react";
 import '../App.css'
 
 function Projects(props) {
-
-  const projectStyling = {
-    display: 'flex',
-    border: '1px solid red',
-    flexDirection: 'column',
-
-  }
   // create state to hold projects
   const [projects, setProjects] = useState(null);
 
@@ -34,13 +27,13 @@ function Projects(props) {
     return projects.map((project) => (
       <div className='projectStyling'>
         <h1>{project.name}</h1>
-        <a href={project.git}>
+        <a href={project.git}  target="_blank" rel="noopener noreferrer">
           <button>Github</button>
         </a>
-        <a href={project.live}>
-          <button>live site</button>
+        <a href={project.live} target="_blank" rel="noopener noreferrer">
+          <button>Live site</button>
         </a>
-        <img src={project.image} alt={'hello'}/>
+        <img src={project.image} alt={'App Image'}/>
       </div>
     ));
   };

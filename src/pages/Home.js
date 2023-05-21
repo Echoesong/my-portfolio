@@ -1,5 +1,7 @@
 export default function Home(props){
     return (
-        <h1>Home</h1>
+        <div>
+            <p>Hello, welcome to my portfolio! Please find my contact links below.</p>
+        </div>
     )
 }

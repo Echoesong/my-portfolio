@@ -9,6 +9,12 @@
     "name": "Project 2 - Break the Ice",
     "live": "https://break-the-ice-app.herokuapp.com/icebreakers",
     "git": "https://github.com/Echoesong/Project-2",
-    "image": ""
+    "image": "https://camo.githubusercontent.com/0f6c8a0a183344d1f6fd4973f84bd7636cdc055534ce7b0817a4ab4bf5dafb0d/68747470733a2f2f692e696d6775722e636f6d2f43366f694d524b2e706e67"
+  },
+  {
+    "name": "Project 3 - GPT Buddy",
+    "live": "https://jocular-seahorse-333cef.netlify.app/",
+    "git": "https://github.com/Echoesong/GPT-buddy",
+    "image": "https://camo.githubusercontent.com/32b3199a9447989771322da3eb7b646cd33eb06168ee3aac7d8792a9ed86afec/68747470733a2f2f692e696d6775722e636f6d2f596470646e52332e706e67"
   }
 ]

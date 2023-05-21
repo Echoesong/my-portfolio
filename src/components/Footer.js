@@ -23,6 +23,7 @@ export default function Footer(props) {
         height=''
         />
       </a>
+      <div><strong>J.e.felker@Berkeley.edu</strong></div>
     </div>
   );
 }

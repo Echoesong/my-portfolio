@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 
 import '../App.css'
 
+const test = 'test'
+
 export default function About(props) {
   const [about, setAbout] = useState(null);
   const getAboutData = async () => {

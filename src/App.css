@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.projectStyling {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* add this */
+  flex-wrap: nowrap;
+}
+
+.projectStyling > img {
+  max-width: 50%;
+  height: auto;
+  margin: 1rem;
+  border-radius: 2rem;
+  border: .2rem solid black
+}

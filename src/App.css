@@ -62,3 +62,11 @@
   max-width: 80%;
   margin: 0 auto;
 }
+
+.footerStyle {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 1rem;
+
+}

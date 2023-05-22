@@ -1,12 +1,12 @@
 export default function Footer(props) {
-  const headerStyle = {
-    display: "flex",
-    
-  };
+ 
   return (
-    <div style={headerStyle}>
+    <div className='footerStyle'>
       <a href="/resume.pdf" download>
-        <img src="/resumeIcon.png" alt="resume icon" width="100"></img>
+        <img src="/resumeIcon.png" alt="resume icon" style={{
+            width: "6.25rem",
+            height: "auto"
+          }}></img>
       </a>
       <a
         href="https://github.com/Echoesong"
@@ -16,8 +16,10 @@ export default function Footer(props) {
         <img
           src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
           alt="GitHub Logo"
-          width="100"
-          height="100"
+          style={{
+            width: "6.25rem",
+            height: "auto"
+          }}
         />
       </a>
       <a
@@ -26,15 +28,14 @@ export default function Footer(props) {
         rel="noopener noreferrer"
       >
         <img
-          src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg"
+          src="/linkedinIcon.png"
           alt="LinkedIn Logo"
-          width="120"
-          height=""
+          style={{
+            width: "6.25rem",
+            height: "auto"
+          }}
         />
       </a>
-      <div>
-        <strong>J.e.felker@Berkeley.edu</strong>
-      </div>
     </div>
   );
 }

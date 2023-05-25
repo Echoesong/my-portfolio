@@ -5,7 +5,7 @@ export default function Footer(props) {
       <a href="/resume.pdf" download>
         <img src="/resumeIcon.png" alt="resume icon" style={{
             width: "6.25rem",
-            height: "auto"
+            height: "6.25rem"
           }}></img>
       </a>
       <a

@@ -68,7 +68,7 @@ export const Contact = () => {
           onChange={(e) => setMessage(e.target.value)}
         />
 
-        <button className='outline outline-1 rounded-md my-2 px-1 hover:bg-green-500' type="submit" value="Send">Send</button>
+        <button className='btn' type="submit" value="Send">Send</button>
       </form>
     </div>
   );

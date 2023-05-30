@@ -3,29 +3,22 @@ import { Link } from "react-router-dom";
 function Header(props) {
   //inline style for the nav tag
   const navStyle = {
-    display: "flex",
-    justifyContent: "space-around",
-    border: "3px solid black",
-    padding: "8px",
-    width: "90%",
-    margin: "auto",
-    borderRadius: "1rem",
+    
   };
 
   return (
-    <header>
-      <h1>Joseph Felker Portfolio</h1>
-      <nav style={navStyle}>
-        <Link to="/">
-          <div>HOME</div>
+    <header className='mb-2'>
+      <div className='navbar flex flex-row bg-slate-700 border-r-2'>
+      <Link to="/">
+          <div className='btn btn-ghost normal-case txt-xl'>Home</div>
         </Link>
         <Link to="/about">
-          <div>ABOUT</div>
+          <div className='btn btn-ghost normal-case txt-xl'>About</div>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <div className='btn btn-ghost normal-case txt-xl'>Projects</div>
         </Link>
-      </nav>
+      </div>
     </header>
   );
 }

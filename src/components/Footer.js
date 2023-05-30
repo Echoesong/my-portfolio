@@ -1,35 +1,15 @@
 export default function Footer(props) {
- 
   return (
-    <div className='footerStyle'>
-      <a href="/resume.pdf" download>
-        <img src="/resumeIcon.png" alt="resume icon" style={{
-            width: "6.25rem",
-            height: "6.25rem"
-          }}></img>
-      </a>
+    <div className='mx-auto w-1/3 border-t border-gray-200 flex justify-center my-4 mb-1'>
       <a
         href="https://github.com/Echoesong"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
-          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          className=''
+          src="/github-mark-white.png"
           alt="GitHub Logo"
-          style={{
-            width: "6.25rem",
-            height: "auto"
-          }}
-        />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/joseph-felker/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="/linkedinIcon.png"
-          alt="LinkedIn Logo"
           style={{
             width: "6.25rem",
             height: "auto"

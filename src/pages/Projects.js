@@ -27,13 +27,16 @@ function Projects(props) {
     return projects.map((project) => (
       <div className='projectStyling'>
         <h1>{project.name}</h1>
-        <a href={project.git}  target="_blank" rel="noopener noreferrer">
-          <button>Github</button>
-        </a>
-        <a href={project.live} target="_blank" rel="noopener noreferrer">
-          <button>Live site</button>
-        </a>
         <img src={project.image} alt={'App Image'}/>
+          <div className='flex flex-row'>
+
+            <a className='mx-1 mb-3' href={project.git}  target="_blank" rel="noopener noreferrer">
+              <button className='btn my-1'>Github</button>
+            </a>
+            <a className='mx-1 mb-3' href={project.live} target="_blank" rel="noopener noreferrer">
+              <button className='btn my-1'>Live site</button>
+            </a>
+          </div>
       </div>
     ));
   };

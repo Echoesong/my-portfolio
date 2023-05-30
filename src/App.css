@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .App {
   text-align: center;
@@ -48,6 +49,7 @@
   justify-content: center;
   align-items: center; /* add this */
   flex-wrap: nowrap;
+  margin-top: 2rem;
 }
 
 .projectStyling > img {
@@ -65,12 +67,4 @@
   align-items: center;
   max-width: 80%;
   margin: 0 auto;
-}
-
-.footerStyle {
-  margin: 3rem;
-  display: flex;
-  justify-content: center;
-  margin: 1rem 1rem;
-
 }

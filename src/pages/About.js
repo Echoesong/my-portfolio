@@ -12,12 +12,14 @@ export default function About(props) {
     setAbout(data);
   };
   useEffect(() => {getAboutData()}, []);
+
   const loaded = () => (
-    <div className='aboutStyling'>
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <p>{about.bio}</p>
+    <div className="flex flex-col justify-center items-center mx-auto mt-4 mb-4 w-full sm:w-3/4 lg:w-1/2 px-4">
+      <h2 className="mb-4">{about.name}</h2>
+      <h3 className="mb-4">{about.email}</h3>
+      <p className="text-center">{about.bio}</p>
     </div>
   );
+  
   return about ? loaded() : <h1>Loading...</h1>
 }

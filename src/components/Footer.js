@@ -1,7 +1,8 @@
 export default function Footer(props) {
   return (
-    <div className='mx-auto w-1/3 border-t border-gray-200 flex justify-center my-4 mb-1'>
+    <div className='mx-auto w-1/3 border-t border-gray-200 flex justify-center'>
       <a
+        className='mt-1'
         href="https://github.com/Echoesong"
         target="_blank"
         rel="noopener noreferrer"

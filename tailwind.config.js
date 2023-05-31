@@ -7,5 +7,10 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('daisyui')
   ],
+  variants: {
+    extend: {
+      display: ['group-hover'],
+      borderWidth: ['hover', 'focus']
+    }
+  }
 }
-

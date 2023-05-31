@@ -40,9 +40,9 @@ export const Contact = () => {
   };
 
   return (
-    <div className="flex justify-center items-center">
-      <form onSubmit={sendEmail} className="flex flex-col justify-center items-center">
-        <label>Name:</label>
+    <div className="flex justify-center items-center mt-3 mb-1">
+      <form onSubmit={sendEmail} className="flex flex-col justify-center items-center mt-2">
+        <label className=''>Name:</label>
         <input
         className="w-64 rounded-md drop-shadow-md hover:outline outline-1 outline-green-500"
           type="text"
@@ -51,7 +51,7 @@ export const Contact = () => {
           onChange={(e) => setUserName(e.target.value)}
         />
 
-        <label>Email:</label>
+        <label className='my-1'>Email Address:</label>
         <input
         className='w-64 rounded-md drop-shadow-md hover:outline outline-1 outline-green-500'
           type="email"
@@ -60,7 +60,7 @@ export const Contact = () => {
           onChange={(e) => setUserEmail(e.target.value)}
         />
 
-        <label>Message:</label>
+        <label className='my-1'>Message:</label>
         <textarea
           className="w-96 rounded-md drop-shadow-md hover:outline outline-1 outline-green-700"
           typename="message"
@@ -68,7 +68,7 @@ export const Contact = () => {
           onChange={(e) => setMessage(e.target.value)}
         />
 
-        <button className='btn' type="submit" value="Send">Send</button>
+        <button className='btn btn-primary mt-1 mb-2' type="submit" value="Send">Send</button>
       </form>
     </div>
   );

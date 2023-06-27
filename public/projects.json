@@ -1,20 +1,30 @@
 [
   {
-    "name": "Project 1 - Tamagotchi",
-    "live": "",
-    "git": "https://github.com/Echoesong/Tamagotchi",
-    "image": "https://raw.githubusercontent.com/Echoesong/Tamagotchi/main/Images/main-console-screenshot.png"
+    "name": "GPT Buddy",
+    "description": "Fullstack MERN application designed to help users interact with OpenAI's language models. Allows users to input text and receive suggestions or responses from the AI.",
+    "live": "https://jocular-seahorse-333cef.netlify.app/",
+    "git": "https://github.com/Echoesong/GPT-buddy",
+    "image": "https://i.imgur.com/yovUdwQ.png"
   },
   {
-    "name": "Project 2 - Break the Ice",
+    "name": "Break the Ice",
+    "description": "Fullstack MEN application that allows users to submit various icebreaker questions and catalogue responses",
     "live": "https://break-the-ice-app.herokuapp.com/icebreakers",
     "git": "https://github.com/Echoesong/Project-2",
     "image": "https://camo.githubusercontent.com/0f6c8a0a183344d1f6fd4973f84bd7636cdc055534ce7b0817a4ab4bf5dafb0d/68747470733a2f2f692e696d6775722e636f6d2f43366f694d524b2e706e67"
   },
   {
-    "name": "Project 3 - GPT Buddy",
-    "live": "https://jocular-seahorse-333cef.netlify.app/",
-    "git": "https://github.com/Echoesong/GPT-buddy",
-    "image": "https://camo.githubusercontent.com/32b3199a9447989771322da3eb7b646cd33eb06168ee3aac7d8792a9ed86afec/68747470733a2f2f692e696d6775722e636f6d2f596470646e52332e706e67"
+    "name": "Destiny Character Viewer",
+    "description": "Application designed to allow users to view their character information for the videogame Destiny. Developed in Python with Django",
+    "live": "https://destiny-loadout-manager.herokuapp.com/",
+    "git": "https://github.com/Echoesong/DestinyCharacterViewer",
+    "image": "https://user-images.githubusercontent.com/34144589/234010587-5aa2759a-b18b-43b5-8175-f12abb190e68.png"
+  },
+  {
+    "name": "Tamagotchi",
+    "description": "Simple HTML game that asks you to care for a generated creature",
+    "live": "",
+    "git": "https://github.com/Echoesong/Tamagotchi",
+    "image": "https://raw.githubusercontent.com/Echoesong/Tamagotchi/main/Images/main-console-screenshot.png"
   }
 ]

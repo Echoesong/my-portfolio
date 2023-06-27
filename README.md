@@ -1,6 +1,6 @@
 # Felkerfolio
 
-Welcome to **Felkerfolio**, a MERN stack application showcasing my work and skills as a software developer. The frontend is hosted on Netlify and can be accessed at  [Felkerfolio.netlify.app](felkerfolio.netlify.app), and the backend is hosted on Heroku.
+Welcome to **Felkerfolio**, a MERN stack application showcasing my work and skills as a software developer. The frontend is hosted on Netlify and can be accessed at felkerfolio.netlify.app, and the backend is hosted on Heroku.
 
 ## Technologies Used
 * MongoDB: NoSQL Database used to store data
